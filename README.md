@@ -28,6 +28,7 @@ Instalação do GIT no linux
 ### Criando e clonando repositórios
 
 - Adicionando um repositório local no GitHub
+
 mkdir <nome do repostorio>
 
 git init
