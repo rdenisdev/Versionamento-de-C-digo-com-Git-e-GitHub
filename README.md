@@ -1,5 +1,5 @@
 
-Nesse repósitorio vou alocar as documentações do GIT e GitHub, além de resumos e comandos mais utilizados com finalidade de reforçar meu estudos no versionamento de códigos.
+Nesse repósitorio vou alocar as documentações do GIT e GitHub, além de resumos e comandos mais utilizados com finalidade de reforçar meus estudos no versionamento de códigos.
 
 ## Documentação
 
