@@ -48,7 +48,8 @@ Complementares
 ### Criando e clonando repositórios
 
 - Adicionando um repositório local no GitHub
-mkdir <nome do repostorio>
+
+mkdir < nome do repostorio >
 
 git init
 
@@ -56,7 +57,7 @@ git remote add origin URL-SSH
 
 - Clonando um repositório remoto para local
 
-mkdir <nome do repostorio>
+mkdir < nome do repostorio >
 
 git init
 
@@ -66,7 +67,7 @@ git clone URL-SSH <nome da pasta-opcional>
 ```bash
 git status 
 ```
-### Salvando alterações do repositório
+### Gerenciando as alterações do repositório
 
 ```bash
  git add < nome_arquivo > # Adiciona o arquivo para a área de preparação.
@@ -77,9 +78,15 @@ git status
  
  git commit -am # Adiciona altereção de um arquivo existente + mensagem do commit.
  
- git push # "Empurra" todos os arquivos para o repositório remoto.
+ git push # "Empurra" os arquivos para o repositório remoto.
+
+ git push -u origin main  # Envia e configura upstream.
 ```
-- "Puxar" todas as alterações do repositório remoto para o local
+Busca mudanças no repositório remoto
+```bash
+git fetch
+```
+- Busca e "Puxa" todas as alterações do repositório remoto para o local
 ```bash
 git pull
 ```
@@ -107,10 +114,14 @@ Primeiramente, se acalme e siga as instruções:
 
 Dê um "Pull" no seu repositório local, para puxar todas as mudanças ocorridas no repositório remoto. Após isso verifique qual o(s) arquivo(s) conflitante. Acesse o arquivo e escolha qual a edição de fato constará neste; Salve e retorne para o console adicionando a modificação e comitando. Por fim dê o push.
 
+## Guia Completo de Comandos
+
+Acesse neste [link](https://web.dio.me/articles/git-cheat-sheet-guia-completo-de-comandos-968de4c10259?back=/home).
 
 ## Referência
 
  - [Digital Innovation One](Dio.me)
  - Versionamento de Código com Git e GitHub - Elidiana Andrade
+ - Git Cheat Sheet - Guia Completo de Comandos - Otávio Guedes
 
 
