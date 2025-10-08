@@ -81,10 +81,24 @@ git status
  git push # "Empurra" os arquivos para o repositório remoto.
 
  git push -u origin main  # Envia e configura upstream.
+
+ git log # lista o histórico de commits.
 ```
-Busca mudanças no repositório remoto
+
+- Desfazendo alterações no repositório local
+```bash
+git restore < nome_arquivo > # Restaura um arquivo para antes das modificações.
+git reset --< soft, mixed (padrão), hard > < identidade do commit > # Retorna a um commit anterior. 
+```
+
+
+- Busca mudanças no repositório remoto
 ```bash
 git fetch
+```
+- Compara e revisa alterações
+```bash
+git diff 
 ```
 - Busca e "Puxa" todas as alterações do repositório remoto para o local
 ```bash
@@ -114,7 +128,7 @@ Primeiramente, se acalme e siga as instruções:
 
 Dê um "Pull" no seu repositório local, para puxar todas as mudanças ocorridas no repositório remoto. Após isso verifique qual o(s) arquivo(s) conflitante. Acesse o arquivo e escolha qual a edição de fato constará neste; Salve e retorne para o console adicionando a modificação e comitando. Por fim dê o push.
 
-## Guia Completo de Comandos
+## Lista Completa de Comandos
 
 Acesse neste [link](https://web.dio.me/articles/git-cheat-sheet-guia-completo-de-comandos-968de4c10259?back=/home).
 
