@@ -69,7 +69,7 @@ git status
 ```bash
  git add <nome do arquivo> # Adiciona o arquivo para a área de preparação.
  
- git add . #Adiciona todos os arquivos novos ou alterados para a área de preparação.
+ git add . # Adiciona todos os arquivos novos ou alterados para a área de preparação.
  
  git commit -m "Mensagem do Commit"
  
